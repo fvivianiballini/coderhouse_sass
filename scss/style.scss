@@ -1,11 +1,14 @@
+@import "header";
+@import "footer";
+@import "maps";
+@import "mediaqueries";
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-$rosa_claro: #FCE4DE;
-$azul_fuente: #002441;
+
 
 body
 {
@@ -13,44 +16,7 @@ body
     background-color: $rosa_claro;
     
 }
-.header {
-    background-color: $rosa_claro;
-    color: $azul_fuente;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bold;
-    .header__logo{
-        text-decoration: none;
-        background-image: none;
-        }
-    .header__lista{
-        list-style-type: none;
-        font-size: 2.2vh;
-        background-color: $rosa_claro;
-        padding: 0;
-        }
-}
 
-nav {
-    a{
-        text-decoration: none;
-        background-image: linear-gradient(currentColor, #E1A730);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size .3s;  
-        &:link{
-            text-decoration: none; 
-            color: $azul_fuente;   
-    }
-        &:visited {
-            text-decoration: none;
-            color: $azul_fuente;
-        }
-        &:hover {
-            background-size: 100% 2px;
-        }
-    }
-}
 .parallax {
     background-image: url(../images/2888688.jpg);
     height: 30em;
@@ -149,147 +115,3 @@ nav {
 }
 
 
-.footer{
-    font-size: 1em;
-    text-decoration: none;
-    color: $azul_fuente;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    text-decoration: none;
-    background-image: none;
-    a{
-        img{
-            width: 20px;
-            height: 20px;
-            align-items: flex-end;
-        }
-    }
-}
-
-.footer__parrafo {
-    font-family: 'Libre Baskerville', serif;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    
-    
-}
-
-@media screen and (max-width:480px) {
-    
-    .header__logo {
-        text-decoration: none;
-        background-image: none;
-    }
-    .header__nav{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .header__lista{
-        flex-direction: column;
-        align-items: center;
-        list-style-type: none;
-        font-size: 2.4vh;
-        }
-    .section__cursos{
-        display: flex;
-        flex-direction: column;
-        font-size: 2.4vh;
-        img {
-            height: 300px;
-            width: 380px;
-        }
-        p {
-            font-size: 2vh;}
-    }
-
-
-    .section__aboutus{
-            p {
-            font-size: 2.4vh;
-            }
-            img {
-        height: 200px;
-        width: 200px;
-        }
-    }
-    .parallax {
-        h4{
-        font-size: 3vh;
-        }
-        p {
-            font-size: 2.4vh;
-        }
-    }
-        
-    .terapias  {
-        font-size: 2.4vh;
-        img {
-            height: 300px;
-            width: 300px;
-        }
-    }
-
-    .form {
-        font-size: 2vh;
-            display: flex;
-            justify-content: center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header__nav{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .header__lista{
-        flex-direction: column;
-        align-items: center;
-        list-style-type: none;
-        font-size: 2.1vh;
-        }
-    .header__logo{
-        text-decoration: none;
-        background-image: none;
-        }
-    .section__cursos{
-        display: flex;
-        flex-direction: column;
-        font-size: 2.4vh;
-        img {
-            height: 200px;
-            width: 280px;
-        }
-        p {
-            font-size: 1.8vh;
-        }
-    }
-        .section__aboutus p {
-            font-size: 2.4vh;
-        }
-        
-        
-        .parallax {
-            h4{
-                font-size: 2.4vh;
-            }
-            p {
-            font-size: 2vh;
-            }
-        }
-        .terapias  {
-            font-size: 2.4vh;
-            img {
-                height: 300px;
-                width: 300px;
-            } 
-        }
-        .form {
-            font-size: 2vh;
-            display: flex;
-            justify-content: center;
-        }   
-}

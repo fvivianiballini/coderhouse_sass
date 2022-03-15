@@ -1,0 +1,29 @@
+@import "maps";
+
+
+.footer{
+    font-size: 1em;
+    text-decoration: none;
+    color: map-get($estilos, color-fuente);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: none;
+    background-image: none;
+    a{
+        img{
+            width: 20px;
+            height: 20px;
+            align-items: flex-end;
+        }
+    }
+}
+
+.footer__parrafo {
+    font-family: map-get($estilos, fuente);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}

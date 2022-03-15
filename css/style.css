@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
 body
@@ -141,15 +140,6 @@ a:visited {
     justify-content: center;
     
 }
-
-
-
-.section__cursos {
-    font-family: 'Libre Baskerville', serif;
-    color: #002441;
-    
-}
-
 
 
 .album {

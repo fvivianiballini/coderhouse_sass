@@ -1,16 +1,7 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box; }
-
-body {
-  overflow-x: hidden;
-  background-color: #FCE4DE; }
-
 .header {
   background-color: #FCE4DE;
   color: #002441;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold; }
   .header .header__logo {
     text-decoration: none;
@@ -36,6 +27,120 @@ nav a {
     color: #002441; }
   nav a:hover {
     background-size: 100% 2px; }
+
+.footer {
+  font-size: 1em;
+  text-decoration: none;
+  color: #002441;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-decoration: none;
+  background-image: none; }
+  .footer a img {
+    width: 20px;
+    height: 20px;
+    align-items: flex-end; }
+
+.footer__parrafo {
+  font-family: "Libre Baskerville", serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+@media screen and (max-width: 480px) {
+  .header__logo {
+    text-decoration: none;
+    background-image: none; }
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .header__lista {
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    font-size: 2.4vh; }
+  .section__cursos {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.4vh; }
+    .section__cursos img {
+      height: 300px;
+      width: 380px; }
+    .section__cursos p {
+      font-size: 2vh; }
+  .section__aboutus p {
+    font-size: 2.4vh; }
+  .section__aboutus img {
+    height: 200px;
+    width: 200px; }
+  .parallax h4 {
+    font-size: 3vh; }
+  .parallax p {
+    font-size: 2.4vh; }
+  .terapias {
+    font-size: 2.4vh; }
+    .terapias img {
+      height: 300px;
+      width: 300px; }
+  .form {
+    font-size: 2vh;
+    display: flex;
+    justify-content: center; } }
+
+@media screen and (max-width: 768px) {
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .header__lista {
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    font-size: 2.1vh; }
+  .header__logo {
+    text-decoration: none;
+    background-image: none; }
+  .section__cursos {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.4vh; }
+    .section__cursos img {
+      height: 200px;
+      width: 280px; }
+    .section__cursos p {
+      font-size: 1.8vh; }
+  .section__aboutus p {
+    font-size: 2.4vh; }
+  .parallax h4 {
+    font-size: 2.4vh; }
+  .parallax p {
+    font-size: 2vh; }
+  .terapias {
+    font-size: 2.4vh; }
+    .terapias img {
+      height: 300px;
+      width: 300px; }
+  .form {
+    font-size: 2vh;
+    display: flex;
+    justify-content: center; } }
+
+.footer__parrafo {
+  font-family: 'Libre Baskerville', serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  overflow-x: hidden;
+  background-color: #FCE4DE; }
 
 .parallax {
   background-image: url(../images/2888688.jpg);
@@ -121,102 +226,3 @@ nav a {
   background-size: cover;
   font-family: 'Libre Baskerville', serif;
   color: #002441; }
-
-.footer {
-  font-size: 1em;
-  text-decoration: none;
-  color: #002441;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  text-decoration: none;
-  background-image: none; }
-  .footer a img {
-    width: 20px;
-    height: 20px;
-    align-items: flex-end; }
-
-.footer__parrafo {
-  font-family: 'Libre Baskerville', serif;
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
-
-@media screen and (max-width: 480px) {
-  .header__logo {
-    text-decoration: none;
-    background-image: none; }
-  .header__nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-  .header__lista {
-    flex-direction: column;
-    align-items: center;
-    list-style-type: none;
-    font-size: 2.4vh; }
-  .section__cursos {
-    display: flex;
-    flex-direction: column;
-    font-size: 2.4vh; }
-    .section__cursos img {
-      height: 300px;
-      width: 380px; }
-    .section__cursos p {
-      font-size: 2vh; }
-  .section__aboutus p {
-    font-size: 2.4vh; }
-  .section__aboutus img {
-    height: 200px;
-    width: 200px; }
-  .parallax h4 {
-    font-size: 3vh; }
-  .parallax p {
-    font-size: 2.4vh; }
-  .terapias {
-    font-size: 2.4vh; }
-    .terapias img {
-      height: 300px;
-      width: 300px; }
-  .form {
-    font-size: 2vh;
-    display: flex;
-    justify-content: center; } }
-
-@media screen and (max-width: 768px) {
-  .header__nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-  .header__lista {
-    flex-direction: column;
-    align-items: center;
-    list-style-type: none;
-    font-size: 2.1vh; }
-  .header__logo {
-    text-decoration: none;
-    background-image: none; }
-  .section__cursos {
-    display: flex;
-    flex-direction: column;
-    font-size: 2.4vh; }
-    .section__cursos img {
-      height: 200px;
-      width: 280px; }
-    .section__cursos p {
-      font-size: 1.8vh; }
-  .section__aboutus p {
-    font-size: 2.4vh; }
-  .parallax h4 {
-    font-size: 2.4vh; }
-  .parallax p {
-    font-size: 2vh; }
-  .terapias {
-    font-size: 2.4vh; }
-    .terapias img {
-      height: 300px;
-      width: 300px; }
-  .form {
-    font-size: 2vh;
-    display: flex;
-    justify-content: center; } }
