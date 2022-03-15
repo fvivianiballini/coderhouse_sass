@@ -1,4 +1,3 @@
-
 @media screen and (max-width:480px) {
     
     .header__logo {
@@ -20,41 +19,37 @@
         display: flex;
         flex-direction: column;
         font-size: 2.4vh;
-        img {
-            height: 300px;
-            width: 380px;
-        }
-        p {
-            font-size: 2vh;}
     }
+    .section__cursos img {
+        height: 300px;
+        width: 380px;
+    }
+    .section__cursos p {
+        font-size: 2vh;}
 
-
-    .section__aboutus{
-            p {
-            font-size: 2.4vh;
-            }
-            img {
+    .section__aboutus p {
+        font-size: 2.4vh;
+    }
+    .section__aboutus img {
         height: 200px;
         width: 200px;
-        }
     }
-    .parallax {
-        h4{
+    
+    .parallax h4{
         font-size: 3vh;
-        }
-        p {
-            font-size: 2.4vh;
-        }
     }
-        
-    .terapias  {
+    .parallax p {
         font-size: 2.4vh;
-        img {
-            height: 300px;
-            width: 300px;
-        }
+    }
+    
+    .terapias  {
+    font-size: 2.4vh;
     }
 
+    .terapias img {
+        height: 300px;
+        width: 300px;
+    }
     .form {
         font-size: 2vh;
             display: flex;
@@ -74,54 +69,46 @@
         list-style-type: none;
         font-size: 2.1vh;
         }
-    .header__logo{
-        text-decoration: none;
-        background-image: none;
+        .header__logo{
+        
+            text-decoration: none;
+            background-image: none;
         }
-    .section__cursos{
-        display: flex;
-        flex-direction: column;
-        font-size: 2.4vh;
-        img {
+        .section__cursos{
+            display: flex;
+            flex-direction: column;
+            font-size: 2.4vh;
+        }
+        .section__cursos img {
             height: 200px;
             width: 280px;
         }
-        p {
+        .section__cursos p {
             font-size: 1.8vh;
         }
-    }
         .section__aboutus p {
             font-size: 2.4vh;
         }
         
         
-        .parallax {
-            h4{
-                font-size: 2.4vh;
-            }
-            p {
-            font-size: 2vh;
-            }
-        }
-        .terapias  {
+        .parallax h4{
             font-size: 2.4vh;
-            img {
-                height: 300px;
-                width: 300px;
-            } 
         }
+        .parallax p {
+            font-size: 2vh;
+        }
+        
+        .terapias  {
+        font-size: 2.4vh;
+        }
+    
+        .terapias img {
+            height: 300px;
+            width: 300px;
+        } 
         .form {
             font-size: 2vh;
             display: flex;
             justify-content: center;
         }   
-}
-
-.footer__parrafo {
-    font-family: 'Libre Baskerville', serif;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    
-    
 }

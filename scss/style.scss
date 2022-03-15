@@ -9,7 +9,6 @@
 }
 
 
-
 body
 {
     overflow-x: hidden;
@@ -44,6 +43,7 @@ body
         text-transform: capitalize;
         padding: 10px;
         color:$azul_fuente;
+        overflow: hidden;
     }
 }
 .section__aboutus {
