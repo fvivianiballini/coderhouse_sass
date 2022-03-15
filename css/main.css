@@ -112,7 +112,8 @@ nav a {
     justify-content: center; }
   .footer a img {
     width: 20px;
-    height: 20px; }
+    height: 20px;
+    margin: 3px; }
 
 .footer__parrafo {
   font-family: "Libre Baskerville", serif;
