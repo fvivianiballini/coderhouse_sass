@@ -10,6 +10,7 @@
         background-image: none;
         }
     .header__lista{
+        @extend .header__logo;
         list-style-type: none;
         font-size: 2.2vh;
         background-color: map-get($estilos, color-fondo);

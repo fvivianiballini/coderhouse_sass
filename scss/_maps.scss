@@ -6,3 +6,7 @@ $estilos: (
     color-fondo: $rosa_claro,
 );
 
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}

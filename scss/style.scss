@@ -26,7 +26,7 @@ body
     padding: 50px 30px;
 	margin-bottom:50px;
     font-size: 2rem;
-    color: $azul_fuente;
+    color: map-get($estilos, color-fuente );
         h4 {
         font-size: 4vh; 
         font-family: 'Libre Baskerville', serif;
@@ -80,8 +80,7 @@ body
     font-family: 'Libre Baskerville', serif;
     color: $azul_fuente;
     img {
-        height: 450px;
-        width: 450px;
+        @include sizes(450px, 450px);
         margin-left: auto;
         margin-right: auto;
         flex-direction: column;
