@@ -3,4 +3,4 @@
 ## 3er entrega
 
 
-el sitio se encuentra generado con scss + bootstrap, falta información y detalles esteticos que se van a cumplir una vez que me pasen la información.
+el sitio se encuentra anidado con scss, tiene uso de variables + uso de framework bootstrap
