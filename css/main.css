@@ -216,14 +216,14 @@ body {
     font-size: 4vh;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-    background-color: rgba(50, 50, 50, 0.2);
+    background-color: rgba(216, 206, 206, 0.6);
     padding-top: 20px;
     margin-top: 50px; }
   .parallax p {
     font-size: 2vh;
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
-    background-color: rgba(50, 50, 50, 0.2);
+    background-color: rgba(216, 206, 206, 0.6);
     text-transform: capitalize;
     padding: 10px;
     color: #002441;
@@ -285,4 +285,5 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Libre Baskerville', serif;
-  color: #002441; }
+  color: #002441;
+  font-weight: bolder; }

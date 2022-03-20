@@ -31,7 +31,7 @@ body
         font-size: 4vh; 
         font-family: 'Libre Baskerville', serif;
         text-align: center; 
-        background-color:rgba(50,50,50,.2);
+        background-color:rgba(216, 206, 206, 0.6);
         padding-top: 20px;
         margin-top: 50px;
         }
@@ -39,7 +39,7 @@ body
         font-size: 2vh; 
         font-family: 'Libre Baskerville', serif;
         text-align: justify; 
-        background-color:rgba(50,50,50,.2);
+        background-color:rgba(216, 206, 206, 0.6);
         text-transform: capitalize;
         padding: 10px;
         color:$azul_fuente;
@@ -111,6 +111,8 @@ body
     background-size: cover;
     font-family: 'Libre Baskerville', serif;
     color: $azul_fuente;
+    font-weight: bolder;
 }
+
 
 
