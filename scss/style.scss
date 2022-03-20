@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import "header";
 @import "footer";
 @import "maps";
 @import "mediaqueries";
+
 *{
     margin: 0px;
     padding: 0px;
@@ -32,12 +34,13 @@ body
         font-family: 'Libre Baskerville', serif;
         text-align: center; 
         background-color:rgba(216, 206, 206, 0.6);
-        padding-top: 20px;
-        margin-top: 50px;
+        margin-bottom: 20px;
+        font-weight: bolder;
         }
         p {
         font-size: 2vh; 
         font-family: 'Libre Baskerville', serif;
+        font-style: italic;
         text-align: justify; 
         background-color:rgba(216, 206, 206, 0.6);
         text-transform: capitalize;
