@@ -4,7 +4,7 @@
     background-color: $rosa_claro;
     color: map-get($estilos, color-fuente);
     font-family: map-get($estilos, fuente);
-    font-weight: bold;
+    
     .header__logo{
         text-decoration: none;
         background-image: none;
@@ -12,8 +12,7 @@
     .header__lista{
         @extend .header__logo;
         list-style-type: none;
-        font-size: 2.2vh;
-        font-weight: bolder;
+        font-size: 2.6vh;
         background-color: map-get($estilos, color-fondo);
         padding: 0;
         }
@@ -37,6 +36,7 @@ nav {
         }
         &:hover {
             background-size: 100% 2px;
+            font-weight: bold;
         }
     }
 }

@@ -26,9 +26,13 @@
     }
     .section__cursos p {
         font-size: 2vh;}
-
+    .section__aboutus {
+        flex-direction: column;
+    }
     .section__aboutus p {
         font-size: 2.4vh;
+        margin-top: 50px;
+        margin-bottom: 750px;
     }
     .section__aboutus img {
         height: 200px;

@@ -18,28 +18,40 @@ body
     
 }
 
+.btn-outline-dark{
+    margin-bottom: 30px;
+    &:hover {
+    background-color: $azul_fuente;
+    }
+}
+
 .parallax {
     background-image: url(../images/2888688.jpg);
-    height: 30em;
+    height: 170vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 30px;
 	margin-bottom:50px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: map-get($estilos, color-fuente );
+        .inicio{
+            background-color: rgba(247, 225, 225, 0.6);
+            font-family: $fuente;
+        }
+        h1{
+            font-style: italic;
+        }
         h4 {
-        font-size: 4vh; 
+        font-size: 5vh; 
         font-family: 'Libre Baskerville', serif;
         text-align: center; 
-        background-color:rgba(216, 206, 206, 0.6);
         margin-bottom: 20px;
         font-weight: bolder;
         }
-        p {
-        font-size: 2vh; 
-        font-family: 'Libre Baskerville', serif;
+        .parallax__p {
+        font-size: 2.8vh; 
         font-style: italic;
         text-align: justify; 
         background-color:rgba(216, 206, 206, 0.6);
@@ -47,16 +59,26 @@ body
         padding: 10px;
         color:$azul_fuente;
         overflow: hidden;
+        }   
+        .card-index1 {
+            @include sizes(350px, 550px);
+            font-size: 2.1vh;
+            margin-top: 10px;
+        }
     }
-}
+    
+
+    
 .section__aboutus {
     background-image: url(../images/2888688.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+
     img {
-        height: 60vh;
-        width: 60vh;
+        @include sizes(350px, 350px);
         border-radius: 10%;
         display: flex;
         justify-content: center;
@@ -66,13 +88,11 @@ body
     p {
         font-family: 'Libre Baskerville', serif;
         text-align: center;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 20px;
-        font-weight: bold;
         color: $azul_fuente;
+        font-size: 3vh;
     }
 }
+
 .terapias {
     display: flex;
     flex-direction: column;
