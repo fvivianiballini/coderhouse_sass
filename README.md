@@ -1,6 +1,6 @@
 # coderhouse
 
-## 3er entrega
+## entrega final
 
 
-el sitio se encuentra anidado con scss, tiene uso de variables + uso de framework bootstrap
+El sitio fue realizado con bootstrap y sass, se crearon logos e imagenes, el sitio es responsive en parte por bootstrap y en parte por media queries.
