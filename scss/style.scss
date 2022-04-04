@@ -27,7 +27,7 @@ body
 
 .parallax {
     background-image: url(../images/2888688.jpg);
-    height: 170vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,33 +37,11 @@ body
     font-size: 1.8rem;
     color: map-get($estilos, color-fuente );
         .inicio{
-            background-color: rgba(247, 225, 225, 0.6);
+            background-color: rgba(252, 228, 222, 0.7);
             font-family: $fuente;
         }
         h1{
             font-style: italic;
-        }
-        h4 {
-        font-size: 5vh; 
-        font-family: 'Libre Baskerville', serif;
-        text-align: center; 
-        margin-bottom: 20px;
-        font-weight: bolder;
-        }
-        .parallax__p {
-        font-size: 2.8vh; 
-        font-style: italic;
-        text-align: justify; 
-        background-color:rgba(216, 206, 206, 0.6);
-        text-transform: capitalize;
-        padding: 10px;
-        color:$azul_fuente;
-        overflow: hidden;
-        }   
-        .card-index1 {
-            @include sizes(350px, 550px);
-            font-size: 2.1vh;
-            margin-top: 10px;
         }
     }
     
@@ -76,20 +54,17 @@ body
     background-size: cover;
     padding-bottom: 15vh;
     padding-top: 15vh;
-
     img {
         @include sizes(350px, 350px);
         border-radius: 10%;
-        display: flex;
-        justify-content: center;
         margin-left: auto;
         margin-right: auto;
     }
     p {
         font-family: 'Libre Baskerville', serif;
-        text-align: center;
         color: $azul_fuente;
-        font-size: 3vh;
+        font-size: 3.5vh;
+        font-style: italic;
     }
 }
 
@@ -120,9 +95,13 @@ body
 }
 
 .card {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(252, 228, 222, 0.7);
     font-family: 'Libre Baskerville', serif;
     color: $azul_fuente;
+}
+
+.card-text {
+    font-size: 2.8vh;
 }
 
 

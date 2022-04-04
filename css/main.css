@@ -56,10 +56,12 @@ nav a {
   .section__aboutus p {
     font-size: 2.4vh;
     margin-top: 50px;
-    margin-bottom: 750px; }
+    margin-bottom: 50px; }
   .section__aboutus img {
     height: 200px;
-    width: 200px; }
+    width: 200px;
+    display: flex;
+    justify-content: center; }
   .terapias {
     font-size: 2.4vh; }
   .terapias img {
@@ -89,7 +91,8 @@ nav a {
     font-size: 2.4vh; }
   .section__cursos img {
     height: 200px;
-    width: 280px; }
+    width: 280px;
+    justify-content: center; }
   .section__cursos p {
     font-size: 1.8vh; }
   .section__aboutus p {
@@ -153,10 +156,12 @@ nav a {
   .section__aboutus p {
     font-size: 2.4vh;
     margin-top: 50px;
-    margin-bottom: 750px; }
+    margin-bottom: 50px; }
   .section__aboutus img {
     height: 200px;
-    width: 200px; }
+    width: 200px;
+    display: flex;
+    justify-content: center; }
   .terapias {
     font-size: 2.4vh; }
   .terapias img {
@@ -186,7 +191,8 @@ nav a {
     font-size: 2.4vh; }
   .section__cursos img {
     height: 200px;
-    width: 280px; }
+    width: 280px;
+    justify-content: center; }
   .section__cursos p {
     font-size: 1.8vh; }
   .section__aboutus p {
@@ -217,7 +223,7 @@ body {
 
 .parallax {
   background-image: url(../images/2888688.jpg);
-  height: 170vh;
+  height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -227,30 +233,10 @@ body {
   font-size: 1.8rem;
   color: #002441; }
   .parallax .inicio {
-    background-color: rgba(247, 225, 225, 0.6);
+    background-color: rgba(252, 228, 222, 0.7);
     font-family: "Libre Baskerville", serif; }
   .parallax h1 {
     font-style: italic; }
-  .parallax h4 {
-    font-size: 5vh;
-    font-family: 'Libre Baskerville', serif;
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bolder; }
-  .parallax .parallax__p {
-    font-size: 2.8vh;
-    font-style: italic;
-    text-align: justify;
-    background-color: rgba(216, 206, 206, 0.6);
-    text-transform: capitalize;
-    padding: 10px;
-    color: #002441;
-    overflow: hidden; }
-  .parallax .card-index1 {
-    height: 550px;
-    width: 350px;
-    font-size: 2.1vh;
-    margin-top: 10px; }
 
 .section__aboutus {
   background-image: url(../images/2888688.jpg);
@@ -263,15 +249,13 @@ body {
     height: 350px;
     width: 350px;
     border-radius: 10%;
-    display: flex;
-    justify-content: center;
     margin-left: auto;
     margin-right: auto; }
   .section__aboutus p {
     font-family: 'Libre Baskerville', serif;
-    text-align: center;
     color: #002441;
-    font-size: 3vh; }
+    font-size: 3.5vh;
+    font-style: italic; }
 
 .terapias {
   display: flex;
@@ -297,9 +281,12 @@ body {
   background-size: cover; }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(252, 228, 222, 0.7);
   font-family: 'Libre Baskerville', serif;
   color: #002441; }
+
+.card-text {
+  font-size: 2.8vh; }
 
 .form {
   background-image: url(../images/2888688.jpg);
