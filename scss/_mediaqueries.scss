@@ -25,7 +25,8 @@
         width: 380px;
     }
     .section__cursos p {
-        font-size: 2vh;}
+        font-size: 2vh;
+    }
     .section__aboutus {
         flex-direction: column;
     }
@@ -42,11 +43,12 @@
     }
     .terapias  {
     font-size: 2.4vh;
-    }
-
-    .terapias img {
-        height: 300px;
-        width: 300px;
+    img {
+        height: 250px;
+        width: 250px;
+        flex-direction: column;
+        justify-content: center;
+        }
     }
     .form {
         font-size: 2vh;
@@ -88,13 +90,23 @@
         .section__aboutus p {
             font-size: 2.4vh;
         }
-        .terapias  {
-        font-size: 2.4vh;
+        .section__aboutus img {
+            height: 200px;
+            width: 200px;
+            display:flex;
+            justify-content: center;
         }
-        .terapias img {
-            height: 300px;
-            width: 300px;
-        } 
+        .terapias  {
+            font-size: 2.4vh;
+            img {
+                height: 250px;
+                width: 250px;
+                margin-left: auto;
+                margin-right: auto;
+                flex-direction: column;
+                justify-content: center;
+                }
+            }
         .form {
             font-size: 2vh;
             display: flex;

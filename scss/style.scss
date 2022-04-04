@@ -2,7 +2,7 @@
 @import "header";
 @import "footer";
 @import "maps";
-@import "mediaqueries";
+
 
 *{
     margin: 0px;
@@ -78,7 +78,8 @@ body
     font-family: 'Libre Baskerville', serif;
     color: $azul_fuente;
     img {
-        @include sizes(450px, 450px);
+        height: 450px;
+        width: 450px;
         margin-left: auto;
         margin-right: auto;
         flex-direction: column;
@@ -116,5 +117,5 @@ body
     font-weight: bolder;
 }
 
-
+@import "mediaqueries";
 
