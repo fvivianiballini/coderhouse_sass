@@ -54,9 +54,7 @@ nav a {
   .section__aboutus {
     flex-direction: column; }
   .section__aboutus p {
-    font-size: 2.4vh;
-    margin-top: 50px;
-    margin-bottom: 50px; }
+    font-size: 2.4vh; }
   .section__aboutus img {
     height: 200px;
     width: 200px;
@@ -255,9 +253,7 @@ body {
   .section__aboutus {
     flex-direction: column; }
   .section__aboutus p {
-    font-size: 2.4vh;
-    margin-top: 50px;
-    margin-bottom: 50px; }
+    font-size: 2.4vh; }
   .section__aboutus img {
     height: 200px;
     width: 200px;

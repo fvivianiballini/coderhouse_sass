@@ -46,14 +46,13 @@ body
     }
     
 
-    
 .section__aboutus {
     background-image: url(../images/2888688.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 15vh;
-    padding-top: 15vh;
+        padding-bottom: 15vh;
+        padding-top: 15vh;
     img {
         @include sizes(350px, 350px);
         border-radius: 10%;
